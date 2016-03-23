@@ -9,10 +9,10 @@
 <div class="Bigbox" id="bigbox1">
 </div>
 <div class=Button id=home>Home</div>
-<div class=Button id=about>About</div>
-<div class=Button id=work>Work</div>
-<div class=Button id=other>Other</div>
-<div class=Button id=contact>Contact</div>
+<div class=Button id=about></div>
+<div class=Button id=work></div>
+<div class=Button id=other></div>
+<div class=Button id=contact></div>
 <div class="Bigbox" id="bigbox2">
 <div id=imagebox></div>
 </div>
