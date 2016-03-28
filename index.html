@@ -4,18 +4,60 @@
 <meta charset="UTF-8">
 <title>Girish Kuniyal</title>
 <link rel="stylesheet" href="stylesheet.css" type="text/css">
+<script src="animatescroll/jquery-1.8.3.min.js"></script>
+<script src="animatescroll/animatescroll.js"></script>
 </head>
 <body>
+<div id="mainframe">
 <div class="Bigbox" id="bigbox1">
+	<div id="name">
+		Girish Kuniyal
+	</div>
 </div>
-<div class=Button id=home>Home</div>
-<div class=Button id=about>About</div>
-<div class=Button id=work>Work</div>
-<div class=Button id=other>Other</div>
-<div class=Button id=contact>Contact</div>
+<div class=Button id=home>
+	Home
+</div>
+	
+<a onclick="$('#bigbox3').animatescroll({scrollSpeed:1500,easing:'easeOutElastic'});">
+	<div class=Button id=about>
+		About
+	</div>
+</a>
+<a onclick="$('#bigbox5').animatescroll({scrollSpeed:1500,easing:'easeOutElastic'});">
+	<div class=Button id=work>
+		Work
+	</div>
+</a>
+<a onclick="$('#bigbox7').animatescroll({scrollSpeed:1500,easing:'easeOutBounce'});">
+	<div class=Button id=other>
+		Other
+	</div>
+	<div class=Button id=contact>
+		Contact
+	</div>
+</a>
 <div class="Bigbox" id="bigbox2">
-<div id=imagebox></div>
+	<div id=imagebox>
+		<img src="pics/mypic.jpg">
+		<div id="recognise" title="Girish">
+		</div>
+	</div>
+	<div id="hello">
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHello Guys! I am Girish 			Kuniyal. A simple and sweet boy. who is techno enthusiastic. Science and Computer lover. Who enjoy 			movie in spare time. and
+	</div>
 </div>
-
+<div class="Bigbox" id="bigbox3">
+</div>
+<div class="Bigbox" id="bigbox4">
+</div>
+<div class="Bigbox" id="bigbox5">
+</div>
+<div class="Bigbox" id="bigbox6">
+</div>
+<div class="Bigbox" id="bigbox7">
+</div>
+<div class="Bigbox" id="bigbox8">
+</div>
+</div>
 </body>
 </html>
