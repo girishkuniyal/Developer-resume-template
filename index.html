@@ -7,8 +7,21 @@
 <link rel="stylesheet" href="stylesheet.css" type="text/css">
 <script src="animatescroll/jquery-1.8.3.min.js"></script>
 <script src="animatescroll/animatescroll.js"></script>
- <script type = "text/javascript" 
-         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script type = "text/javascript" language = "javascript">
+   		$(window).load(function() {
+		// Animate loader off screen
+		$(".loading").fadeOut("slow");
+		});
+         $(window).ready(function() {
+
+            $("#top").click(function(){
+               $("#top").effect( "shake", {times:2}, 200 );
+            });
+				
+         });
+			
+</script>
 		
 
 </head>
@@ -78,19 +91,4 @@
 </div>
 <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg" width="0px" height="0px"><!--Waste image-->
 </body>
-<script type = "text/javascript" language = "javascript">
-   		$(window).load(function() {
-		// Animate loader off screen
-		$(".loading").fadeOut("slow");;
-		$( "img" ).fadeIn(10000);
-		});
-         $(window).ready(function() {
-
-            $("#top").click(function(){
-               $("#top").effect( "shake", {times:2}, 200 );
-            });
-				
-         });
-			
-</script>
 </html>
