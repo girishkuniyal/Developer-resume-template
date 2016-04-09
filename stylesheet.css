@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(pics/Preloader_7.gif) center no-repeat #fff;
+	background: url(pics/Preloader_7.gif) center no-repeat white;
 }
 
 #mainframe{
@@ -87,6 +87,61 @@ background-color: white;
 height:430px;
 }
 
+#identity{
+position:absolute;
+border-right:2px solid  #aab7b8 ;
+font-family:FreeSans;
+top:180px;
+height:225px;
+width:365px;
+}
+
+#nameid{
+position:absolute;
+top:10px;
+left:35px;
+height:25px;
+width:320px;
+background:url("pics/name.png") no-repeat;
+}
+#idvalue{
+position:absolute;
+left:50px;
+}
+#courseid{
+position:absolute;
+top:50px;
+left:32px;
+height:25px;
+width:320px;
+background:url("pics/course.png") no-repeat;
+}
+#collegeid{
+position:absolute;
+top:90px;
+left:33px;
+height:25px;
+width:320px;
+background:url("pics/college.png") no-repeat;
+}
+#locationid{
+position:absolute;
+top:140px;
+left:33px;
+height:25px;
+width:320px;
+background:url("pics/location.png") no-repeat;
+}
+
+#whoami{
+position:absolute;
+top:200px;
+left:385px;
+border-top:1px solid #aab7b8 ;
+width:890px;
+height:185px;
+}
+
 #bigbox3{
 position:relative;
 background-color: #3498db ;
@@ -148,29 +203,11 @@ left:500px;
 }
 
 #recognise{
-position:absolute;
-height:263px;
+position:relative;
+height:260px;
 width:120px;
-top:0px;
+top:-250px;
 left:110px;
-}
-
-#hello{
-color:darkgreen;
-font-size:25px;
-font-family:Comic Sans MS,Purisa;
-position:absolute;
-padding:10px;
-top:150px;
-left:25px;
-right:25px;
-height:170px;
-/*border-top:2px solid green;
-border-left:2px solid red;
-border-right:2px solid blue;
-border-bottom:2px solid orange;*/
-border-radius:2px;
-
 }
 
 .headss{
