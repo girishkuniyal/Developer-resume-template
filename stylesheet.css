@@ -87,6 +87,28 @@ background-color: white;
 height:430px;
 }
 
+
+#whoami{
+position:absolute;
+top:200px;
+left:250px;
+border-top:1px solid #aab7b8 ;
+width:890px;
+height:185px;
+}
+
+#bigbox3{
+position:relative;
+background-color: #3498db ;
+top:75px;
+}
+
+#bigbox4{
+position:relative;
+background-color:white;
+height:430px;
+}
+
 #identity{
 position:absolute;
 border-right:2px solid  #aab7b8 ;
@@ -124,6 +146,7 @@ height:25px;
 width:320px;
 background:url("pics/college.png") no-repeat;
 }
+
 #locationid{
 position:absolute;
 top:140px;
@@ -131,27 +154,6 @@ left:33px;
 height:25px;
 width:320px;
 background:url("pics/location.png") no-repeat;
-}
-
-#whoami{
-position:absolute;
-top:200px;
-left:385px;
-border-top:1px solid #aab7b8 ;
-width:890px;
-height:185px;
-}
-
-#bigbox3{
-position:relative;
-background-color: #3498db ;
-top:75px;
-}
-
-#bigbox4{
-position:relative;
-background-color:white;
-height:430px;
 }
 
 #top{
@@ -232,7 +234,7 @@ height:80px;
 	right:330px;
 }
 
-#other{
+#resume{
 	top:15px;
 	right:200px;
 }
