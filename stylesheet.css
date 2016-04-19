@@ -186,14 +186,14 @@ height:500px;
 margin-bottom:0px;
 }
 
-#center1{
+#outerwhoami{
 position:absolute;
 width:100%;
 top:200px;
 text-align:center;
 }
 
-#center2{
+#outerimagebox{
 position:absolute;
 width:100%;
 top:-160px;
