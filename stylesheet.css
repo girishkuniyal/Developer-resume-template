@@ -16,6 +16,10 @@ html {
   background-size: cover;
 }
 
+span {
+  display: inline-block;
+  vertical-align: middle; 
+}
 
 .loading {
 	position: fixed;
@@ -106,10 +110,11 @@ height:430px;
 #identity{
 position:absolute;
 border-right:2px solid  #aab7b8 ;
-font-family:FreeSans;
+font-family:FreeSans,Calibri;
 top:180px;
 height:225px;
 width:365px;
+font-size:18px;
 }
 
 #nameid{
