@@ -88,17 +88,55 @@ background-color: white;
 height:430px;
 }
 
+#outertitlewhoami{
+	width: 100%;
+	top:150px;
+	position: absolute;
+	text-align: center;
+}
+#titlewhoami{
+	font-family: Comic Sans MS;
+	margin:auto;
+	font-size: 32px;
+	color: #2ecc71 ;
+	cursor: pointer;
+}
+
 #whoami{
 border-top:1px solid #aab7b8 ;
 width:890px;
 height:185px;
 margin:auto;
+font-family:Calibri;
+font-size:30px;
+color: #616a6b ; 
 }
 
+#innerwhoami{
+	margin-top:15px;
+	width: 600px;
+}
 #bigbox3{
 position:relative;
 background-color: #3498db ;
 top:75px;
+}
+
+.outerheadings{
+	width: 100%;
+	position: absolute;
+	top:110px;
+	text-align: center;
+}
+#innerheadings{
+	font-size: 65px;
+	font-family: Dotum;
+	text-decoration: underline;
+	width: 260px;
+	height: 100px;
+	border: 5px solid black;
+	margin: auto;
+	border-radius: 5px;
 }
 
 #bigbox4{
@@ -110,8 +148,8 @@ height:430px;
 #identity{
 position:absolute;
 border-right:2px solid  #aab7b8 ;
-font-family:FreeSans,Calibri;
-top:180px;
+font-family:Calibri,FreeSans;
+top:160px;
 height:225px;
 width:365px;
 font-size:18px;
@@ -156,13 +194,6 @@ left:33px;
 height:25px;
 width:320px;
 background:url("pics/location.png") no-repeat;
-}
-
-#top{
-position:absolute;
-right:50px;
-bottom:35px;
-cursor:pointer;
 }
 
 #bigbox5{
