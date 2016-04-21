@@ -78,7 +78,7 @@ left:50px;
 position:absolute;
 color: #e74c3c;
 font-size:25px;
-border:2px solid  #e74c3c;
+border:2px solid #e74c3c;
 border-radius:10px;
 }
 
@@ -113,7 +113,7 @@ height:185px;
 margin:auto;
 font-family:Calibri;
 font-size:30px;
-color: #616a6b ; 
+color:  #5d6d7e  ; 
 }
 
 #innerwhoami{
@@ -225,14 +225,14 @@ height:430px;
 	position: absolute;
 	float: left;
 	left: 100px;
-	border: 2px solid red;
+	border: 1px solid green;
 }
 .projectanimation{
 	cursor: pointer;
 	height: 320px;
 	width: 320px;
 	box-shadow: 5px 5px 5px #888888;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 .projectanimation:hover{
 		animation-name: projectanimate;
@@ -244,7 +244,7 @@ height:430px;
 #project2{
 	position: relative;
 	display: inline-block;
-	border: 2px solid green;
+	border: 1px solid red;
 }
 
 #project3{
@@ -252,7 +252,7 @@ height:430px;
 	display: inline-block;
 	float: right;
 	right: 100px;
-	border: 2px solid blue;
+	border: 1px solid blue;
 
 }
 
@@ -282,6 +282,30 @@ height:500px;
 margin-bottom:0px;
 }
 
+#outercontact{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+#innercontact{
+	position: relative;
+	color:   #5d6d7e ;
+	top:25px;
+	font-size: 30px;
+	font-family: calibri;
+	margin: auto;
+	width: 750px;
+	top:15px;
+}
+
+#contactimage{
+	position: absolute;
+	top:130px;
+	border:5px solid black;
+	height:150px;
+	width: 100%;
+}
 #outerwhoami{
 position:absolute;
 width:100%;
