@@ -90,16 +90,20 @@ height:430px;
 
 #outertitlewhoami{
 	width: 100%;
-	top:150px;
+	top:140px;
 	position: absolute;
 	text-align: center;
 }
 #titlewhoami{
 	font-family: Comic Sans MS;
 	margin:auto;
+	height: 45px;
+	vertical-align: middle;
+	width:175px;
 	font-size: 32px;
 	color: #2ecc71 ;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 #whoami{
@@ -221,17 +225,26 @@ height:430px;
 	position: absolute;
 	float: left;
 	left: 100px;
-	width: 320px;
+	border: 2px solid red;
+}
+.projectanimation{
+	cursor: pointer;
 	height: 320px;
-	border: 3px solid red;
+	width: 320px;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 5px;
+}
+.projectanimation:hover{
+		animation-name: projectanimate;
+		animation-duration: 1.5s;
+		-webkit-animation-name: projectanimate; /* Chrome, Safari, Opera */
+        -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
 }
 
 #project2{
 	position: relative;
 	display: inline-block;
-	width: 320px;
-	height: 320px;
-	border: 3px solid green;
+	border: 2px solid green;
 }
 
 #project3{
@@ -239,9 +252,8 @@ height:430px;
 	display: inline-block;
 	float: right;
 	right: 100px;
-	width: 320px;
-	height: 320px;
-	border: 3px solid blue;
+	border: 2px solid blue;
+
 }
 
 #bigbox7{
@@ -251,6 +263,19 @@ top:75px;
 }
 
 #bigbox8{
+position:relative;
+background-color: white;
+height:500px;
+margin-bottom:20px;
+}
+
+#bigbox9{
+position:relative;
+background-color:#a569bd  ;
+top:75px;
+}
+
+#bigbox10{
 position:relative;
 background-color: white;
 height:500px;
@@ -327,3 +352,21 @@ height:80px;
 	z-index: 10;
 	margin:0px;
 }
+@keyframes projectanimate{
+	0%{
+		box-shadow: 5px 5px 5px #888888;
+	}
+	25%{
+		box-shadow: 15px 15px 5px #888888;
+	}
+	50%{
+		box-shadow: 5px 5px 5px #888888;
+	}
+	75%{
+		box-shadow: 10px 10px 5px #888888;
+	}
+	100%{
+		box-shadow: 5px 5px 5px #888888;
+	}
+}
+
