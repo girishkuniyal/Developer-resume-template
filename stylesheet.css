@@ -238,7 +238,7 @@ height:430px;
 	vertical-align: middle;
 	font-family: Arial;
 	font-size: 25px;
-	color:  #85929e ;
+	color: #1abc9c ;
 	position: absolute;
 	bottom:0px;
 	width:318px;
@@ -332,6 +332,16 @@ height:500px;
 margin-bottom:0px;
 }
 
+#end{
+	position: absolute;
+	width:100%;
+	height: 25px;
+	background-color:  #85929e ;
+	top:425px;
+	text-align: center;
+	font-family: Arial;
+	color: white;
+}
 #outercontact{
 	height: 30px;
 	width: 100%;
