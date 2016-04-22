@@ -162,7 +162,7 @@ border-right:2px solid  #aab7b8 ;
 font-family:Calibri,FreeSans;
 top:160px;
 height:225px;
-width:365px;
+width:24%;
 font-size:18px;
 }
 
@@ -205,6 +205,34 @@ left:33px;
 height:25px;
 width:320px;
 background:url("pics/location.png") no-repeat;
+}
+
+#abouttitle{
+color: #e74c3c ;
+font-size: 32px;
+margin: 0 auto;
+}
+
+#outeraboutinfo{
+position: relative;
+left:24%;
+top: 40px;
+height: 360px;
+width: 76%;
+text-align: center;
+}
+
+#inneraboutinfo{
+	position: relative;
+	top:65px;
+	height: 250px;
+	width: 600px;
+	margin:0 auto;
+	font-size: 30px;
+	font-family: Calibri;
+	color:#5d6d7e;
+	border-top: 2px solid #5d6d7e;
+
 }
 
 #bigbox5{
@@ -409,18 +437,18 @@ margin-bottom:0px;
 	font-family: Arial;
 	color: white;
 }
-#outercontact{
+.outercontact{
 	height: 30px;
 	width: 100%;
 	text-align: center;
 }
 
-#innercontact{
+.innercontact{
 	position: relative;
-	color:   #5d6d7e ;
+	color: #5d6d7e ;
 	top:25px;
 	font-size: 30px;
-	font-family: calibri;
+	font-family: Comic Sans MS;
 	margin: auto;
 	width: 750px;
 	top:15px;
@@ -443,6 +471,7 @@ margin-bottom:0px;
 	transition: 0.5s ease all;
 	-webkit-transition:0.5s ease all;
 	border-bottom:5px solid  #aeb6bf ; 
+	cursor: pointer;
 }
 
 #contactimage1{
