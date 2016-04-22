@@ -224,6 +224,7 @@ text-align: center;
 
 #inneraboutinfo{
 	position: relative;
+	padding-top: 10px;
 	top:65px;
 	height: 250px;
 	width: 600px;
