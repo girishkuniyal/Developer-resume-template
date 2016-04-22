@@ -303,6 +303,70 @@ height:500px;
 margin-bottom:20px;
 }
 
+.fill{
+	position: absolute;
+	height: 46px;
+	width: 51px;
+}
+
+#fill1{
+	background-image: url("pics/fill1.png");
+	top:150px;
+	left: 80px;
+}
+#fill2{
+	background-image: url("pics/fill8.png");
+	top:180px;
+	float: right;
+	right: 200px;
+}
+#fill3{
+	background-image: url("pics/fill3.png");
+	top:35px;
+	float: right;
+	right: 375px;
+}
+#fill4{
+	background-image: url("pics/fill4.png");
+	top:250px;
+	left: 300px;
+
+}
+#fill5{
+	background-image: url("pics/fill5.png");
+	top:75px;
+	left: 395px;
+}
+#fill6{
+	background-image: url("pics/fill6.png");
+	top:50px;
+	left: 180px;
+}
+#fill7{
+	background-image: url("pics/fill7.png");
+	top:280px;
+	left: 125px;
+}
+#fill8{
+	background-image: url("pics/fill8.png");
+	top:65px;
+	float: right;
+	right: 100px;
+
+}
+#fill9{
+	background-image: url("pics/fill9.png");
+	top:260px;
+	float: right;
+	right: 390px;
+}
+#fill10{
+	background-image: url("pics/fill10.png");
+	top:290px;
+	float: right;
+	right: 55px;
+}
+
 #outerresume{
 	position: relative;
 	top:25px;
@@ -317,8 +381,11 @@ margin-bottom:20px;
 	width:310px;
 	height: 318px;
 	margin: auto;
+	transition: 0.5s ease all;
 }
-
+#innerresume:hover{
+	width: 335px;
+}
 #bigbox9{
 position:relative;
 background-color:#a569bd  ;
