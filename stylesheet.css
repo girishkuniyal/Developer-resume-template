@@ -8,6 +8,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 
+
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -100,8 +102,7 @@ height:430px;
 	text-align: center;
 }
 #titlewhoami{
-	font-family: Comic Sans MS;
-	margin:auto;
+         margin:auto;
 	height: 45px;
 	vertical-align: middle;
 	width:175px;
@@ -109,6 +110,7 @@ height:430px;
 	color: #2ecc71 ;
 	cursor: default;
 	border-radius: 5px;
+        font-family:Arial;
 }
 
 #whoami{
@@ -117,13 +119,15 @@ width:890px;
 height:185px;
 margin:auto;
 font-family:Calibri;
-font-size:30px;
+font-size:35px;
 color:  #5d6d7e  ; 
 }
 
 #innerwhoami{
 	margin-top:15px;
 	width: 600px;
+        font-family: 'Neucha', cursive;
+   
 }
 #bigbox3{
 position:relative;
@@ -136,17 +140,20 @@ top:75px;
 	position: absolute;
 	top:110px;
 	text-align: center;
+vertical-align:middle;
 }
 #innerheadings{
+       
 	cursor: default;
 	font-size: 65px;
-	font-family: Dotum;
+	font-family:Mystery Quest, Dotum;
 	text-decoration: underline;
 	width: 260px;
 	height: 100px;
 	border: 5px solid black;
 	margin: auto;
 	border-radius: 5px;
+
 }
 
 #bigbox4{
@@ -158,7 +165,6 @@ height:430px;
 #identity{
 cursor: default;
 position:absolute;
-border-right:2px solid  #aab7b8 ;
 font-family:Calibri,FreeSans;
 top:160px;
 height:225px;
@@ -229,8 +235,8 @@ text-align: center;
 	height: 250px;
 	width: 600px;
 	margin:0 auto;
-	font-size: 30px;
-	font-family: Calibri;
+	font-size: 35px;
+    font-family: 'Neucha', cursive;
 	color:#5d6d7e;
 	border-top: 2px solid #5d6d7e;
 
@@ -250,7 +256,7 @@ height:430px;
 }
 
 #project{
-	top:25px;
+	top:30px;
 	position: relative;
 	width: 100%;
 	height: 320px;
@@ -259,8 +265,8 @@ height:430px;
 
 .projectimage{
 	margin: auto;
-	width:315px;
-	height: 265px;
+	width:300px;
+	height: 250px;
 	background-repeat: no-repeat;
 	
 }
@@ -268,10 +274,10 @@ height:430px;
 	vertical-align: middle;
 	font-family: Arial;
 	font-size: 25px;
-	color: #1abc9c ;
+	color:  #229954  ;
 	position: absolute;
 	bottom:0px;
-	width:318px;
+	width:300px;
 	height:40px;
 	border:1px solid #85929e  ;
 }
@@ -283,8 +289,8 @@ height:430px;
 }
 .projectanimation{
 	cursor: pointer;
-	height: 320px;
-	width: 320px;
+	height: 291px;
+	width: 300px;
 	box-shadow: 5px 5px 5px #888888;
 	border-radius: 10px;
 	border: 1px solid  #85929e  ;
@@ -299,15 +305,15 @@ height:430px;
 }
 
 #projectimage1{
-	background-image: url("pics/webo.png");
+	background-image: url("pics/website.jpg");
 }
 
 #projectimage2{
-	background-image: url("pics/sodukus.png");
+	background-image: url("pics/soduku.jpg");
 }
 
 #projectimage3{
-	background-image: url("pics/networks.png");
+	background-image: url("pics/muzika.jpg");
 }
 
 #project2{
@@ -409,6 +415,11 @@ margin-bottom:20px;
 
 #innerresume{
 	background-image: url("pics/resumeimage.png");
+	background-size:180px 185px;
+	background-repeat:no-repeat;
+	background-position:center;
+	border:3px dashed #ccc;
+        border-radius:10px;
 	cursor: pointer;
 	width:310px;
 	height: 318px;
@@ -416,7 +427,11 @@ margin-bottom:20px;
 	transition: 0.5s ease all;
 }
 #innerresume:hover{
-	width: 335px;
+	background-size:285px 290px;
+	border:2px solid  white ;
+	border-radius:5px;
+	width:100%;
+	height:350px;
 }
 #bigbox9{
 position:relative;
@@ -451,35 +466,43 @@ margin-bottom:0px;
 	position: relative;
 	color: #5d6d7e ;
 	top:25px;
-	font-size: 30px;
-	font-family: Comic Sans MS;
+	font-size: 35px;
+	font-family: 'Neucha',Comic Sans MS;
 	margin: auto;
 	width: 750px;
 	top:15px;
 }
+#addfont{
 
+
+    font-family: 'Neucha', cursive;
+
+
+}
 #contactimage{
 	text-align: center;
 	position: absolute;
-	top:130px;
+	top:150px;
 	height:152px;
 	width: 100%;
 }
 
 .contacticon{
 	display:inline-block;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	background-repeat: no-repeat;
 	background-position: center;
-	transition: 0.5s ease all;
+	transition: 0.7s ease all;
 	-webkit-transition:0.5s ease all;
-	border-bottom:5px solid  #aeb6bf ; 
+	border:2px solid  #aeb6bf ; 
+        border-radius:5px;
 	cursor: pointer;
 }
 
 #contactimage1{
 	background-image: url("pics/greylinkedin.png");
+	background-size:100px 100px;
 	position: relative;
 	float:left;
 	left: 275px;
@@ -490,12 +513,14 @@ margin-bottom:0px;
 	transform: rotate(360deg);
 	-webkit-transform:rotate(360deg);
 	-ms-transform:rotate(360deg);
-	border-bottom:2px solid  white ;
+	border:2px solid   #3498db  ;
+	border-radius:100px;
 }
 
 #contactimage2{
 	margin: auto;
 	background-image: url("pics/greygoogle+.png");
+	background-size:100px 100px;
 }
 
 #contactimage2:hover{
@@ -503,12 +528,14 @@ margin-bottom:0px;
 	transform: rotate(360deg);
 	-webkit-transform:rotate(360deg);
 	-ms-transform:rotate(360deg);
-	border-bottom:2px solid  white ;
+	border:2px solid   #e74c3c  ;
+	border-radius:100px;
 }
 
 #contactimage3{
 	background-image: url("pics/greytwitter.png"); 
 	position: relative;
+	background-size:100px 100px;
 	float: right;
 	right: 275px;
 }
@@ -518,7 +545,8 @@ margin-bottom:0px;
 	transform: rotate(360deg);
 	-webkit-transform:rotate(360deg);
 	-ms-transform:rotate(360deg);
-	border-bottom:2px solid  white ;
+	border:2px solid   #3498db  ;
+	border-radius:100px;
 }
 
 #outerwhoami{
