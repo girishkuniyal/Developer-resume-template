@@ -1,3 +1,3 @@
-#Introduction with Girish  
+# Developer Resume template
 
-Link of website [here] (http://girishkuniyal.site88.net/).
+Demo website [here](http://girishkuniyal.000webhostapp.com/).
